@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg4"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Register">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign  Up"
+        android:textSize="60dp"
+        android:textColor="#296dda"
+        android:layout_gravity="center"
+        />
+    <EditText
+        android:id="@+id/regname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edtround"
+        android:textColor="#296dda"
+        android:hint="Name"
+        android:layout_marginTop="200dp"
+        android:paddingLeft="10dp"
+        />
+    <EditText
+        android:id="@+id/regemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edtround"
+        android:textColor="#296dda"
+        android:hint="E mail : abc@xyz.com"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="10dp"
+        />
+    <EditText
+        android:id="@+id/regpswd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edtround"
+        android:textColor="#296dda"
+        android:hint="Password ******************"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="10dp"
+        />
+    <Button
+        android:id="@+id/signupbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btnround"
+        android:layout_marginTop="30dp"
+        android:text="Sign up"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:layout_gravity="center"
+        />
+</LinearLayout>
